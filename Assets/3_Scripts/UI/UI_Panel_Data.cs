@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Zenith.UI
 {
-    [CreateAssetMenu(fileName = "UI_Data", menuName = "UIData/PanelData", order = 0)]
+    [CreateAssetMenu(fileName = "UI_Panel_Data", menuName = "UIData/PanelData", order = 0)]
     public class UI_Panel_Data : ScriptableObject
     {
         [SerializeField] private GameObject panelCanvas;
@@ -19,6 +19,5 @@ namespace Zenith.UI
         [SerializeField] private GameObject LOGIN;
         [SerializeField] private GameObject SIGNUP;
         [SerializeField] private GameObject ERROR_NETWORK;
-
     }
 }

@@ -13,6 +13,7 @@ namespace Zenith.Enums
 
     public enum PopUpPanels
     {
+        NULL,
         LOGIN,
         SIGNUP,
         ERROR_NETWORK

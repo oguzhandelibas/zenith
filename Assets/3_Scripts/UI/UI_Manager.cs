@@ -7,11 +7,16 @@ namespace Zenith.UI
 {
     public class UIManager : Singleton<UIManager>
     {
-        
+        [SerializeField] private UI_Panel_Data uI_Panel_Data;
 
-        public void PanelActiveness()
+        public void PanelActiveness(MainPanels mainPanels)
         {
             
+        }
+
+        public void PanelActiveness(PopUpPanels popUpPanels)
+        {
+
         }
 
     }
