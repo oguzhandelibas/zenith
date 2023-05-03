@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Zenith.Enums;
 
-namespace Zenith.Managers
+namespace Zenith.UI
 {
     public class UIManager : Singleton<UIManager>
     {
